@@ -12,19 +12,6 @@ public class PartOne {
             BufferedReader br = new BufferedReader(new FileReader("input/inputPartOne.txt"));
             List<String> lines = br.lines().toList();
             System.out.println(partOne(lines));
-//            int[] left = new int[br.lines().toList().size()];
-//            int[] right = new int[br.lines().toList().size()];
-//
-//
-//            for (int i = 0; i < lines.size(); i++) {
-//                System.out.println( "lines 1 " + lines.get(i));
-//                String[] parts = lines.get(i).trim().split("\\s+");
-//                left[i] = Integer.parseInt(parts[0]);
-//                right[i] = Integer.parseInt(parts[1]);
-//            }
-//            System.out.println(partOne(left, right));
-
-
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
