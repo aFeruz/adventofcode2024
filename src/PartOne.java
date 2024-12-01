@@ -9,7 +9,7 @@ public class PartOne {
     public static void main(String[] args) {
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader("input/inputPartOne.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("input/day1Part1.txt"));
             List<String> lines = br.lines().toList();
             System.out.println(partOne(lines));
         } catch (FileNotFoundException e) {

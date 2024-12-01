@@ -7,7 +7,7 @@ import java.util.List;
 public class PartTwo {
     public static void main(String[] args) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("input/inpoutParTwo.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("input/day1Part2.txt"));
             List<String> lines = br.lines().toList();
             System.out.println(partTwo(lines));
         } catch (FileNotFoundException e) {
