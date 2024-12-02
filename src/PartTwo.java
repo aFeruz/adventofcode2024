@@ -34,7 +34,6 @@ public class PartTwo {
         Arrays.sort(leftLines);
         Arrays.sort(rightLines);
         int sum = 0;
-
         for (int i = 0; i < leftLines.length; i++) {
             int count = 0;
             for (int j = 0; j < rightLines.length; j++) {

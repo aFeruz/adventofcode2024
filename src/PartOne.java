@@ -35,8 +35,6 @@ public class PartOne {
 //        }
         int[] left = new int[lines.size()];
         int[] right = new int[lines.size()];
-
-
         for (int i = 0; i < lines.size(); i++) {
             System.out.println( "lines 1 " + lines.get(i));
             String[] parts = lines.get(i).trim().split("\\s+");
